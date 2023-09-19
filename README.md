@@ -1,1 +1,1 @@
-# automation_projects
+This repo contains a collection of automation programs
