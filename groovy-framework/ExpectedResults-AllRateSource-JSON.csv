@@ -1,0 +1,53 @@
+JSON Path,Expected Value
+providerEstimateAndBenefit[0].payerEstimate[0].payer.payerId,91184
+providerEstimateAndBenefit[0].payerEstimate[0].payer.payerSequence,Primary
+providerEstimateAndBenefit[0].payerEstimate[0].payer.planType,FFS
+providerEstimateAndBenefit[0].payerEstimate[0].payerDueAmount,165.24
+providerEstimateAndBenefit[0].provider.firstName,priya
+providerEstimateAndBenefit[0].provider.lastName,sambath
+providerEstimateAndBenefit[0].provider.middleName,aswin
+providerEstimateAndBenefit[0].provider.organizationName,Onida
+providerEstimateAndBenefit[0].provider.placeOfService,12
+providerEstimateAndBenefit[0].provider.providerNpi,1639143134
+providerEstimateAndBenefit[0].provider.providerSpecialty,367500000X
+providerEstimateAndBenefit[0].provider.providerType,Facility
+providerEstimateAndBenefit[0].provider.taxId,460227855
+providerEstimateAndBenefit[0].provider.zipCode,7960
+providerEstimateAndBenefit[0].providerSummary.totalChargeAmount,0
+providerEstimateAndBenefit[0].providerSummary.totalEstimateAmount,128.36
+providerEstimateAndBenefit[0].serviceLineDetails[0].estimateAmount,128.36
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].appliedCoinsuranceAmount,18.36
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].appliedDeductible,110
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].payer.payerId,91184
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].payer.payerSequence,Primary
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].payer.planType,FFS
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].payerDueAmount,165.24
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].perUnitPayerRate,293.6
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].rateSource,Recent payment trends between the health plan and provider
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].rateSourceId,1
+providerEstimateAndBenefit[0].serviceLineDetails[0].lineAdjustments[0].totalPayerRate,293.6
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureCode,126
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureCodeDescription,XYZ
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureModifierCode1,QX
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureModifierCode2,P1
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureModifierCode3,!@
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.procedureModifierCode4,!@
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.unit,1
+providerEstimateAndBenefit[0].serviceLineDetails[0].service.unitType,NumberOfUnits
+totalEstimateAndBenefit.legalDisclaimer,"This is estimate and not a guarantee of payment. Estimate is based on current member benefits and does not consider medical necessity, limitations or exclusions"
+totalEstimateAndBenefit.payerSummary[0].appliedCoinsuranceAmount,18.36
+totalEstimateAndBenefit.payerSummary[0].appliedDeductible,110
+totalEstimateAndBenefit.payerSummary[0].benefitAppliedNarrative,"$110.00 was applied from patient's deductible, $18.36 was applied as Coinsurance amount. The co-payment of $10.00 is included in the overall estimate amount."
+totalEstimateAndBenefit.payerSummary[0].payer.payerId,91184
+totalEstimateAndBenefit.payerSummary[0].payer.payerSequence,Primary
+totalEstimateAndBenefit.payerSummary[0].payer.planType,FFS
+totalEstimateAndBenefit.payerSummary[0].payerDueAmount,165.24
+totalEstimateAndBenefit.payerSummary[0].payerDueAmountNarrative,The Primary payer is expected to pay $165.24 of the adjusted charges.
+totalEstimateAndBenefit.summary.estimateAmount,128.36
+totalEstimateAndBenefit.summary.estimateAmountNarrative,The patient's estimated payment amount is $128.36
+totalEstimateAndBenefit.summary.totalChargeAdjustments,0
+totalEstimateAndBenefit.summary.totalChargeAdjustmentsNarrative,The patient saved $0.00 in total charges.The contract between health plans and healthcare providers helps reduce total charges and save money for patient's
+totalEstimateAndBenefit.summary.totalChargeAmount,0
+totalEstimateAndBenefit.summary.totalChargeAmountNarrative,The total charges submitted by the provider for your visit was $0.00
+transactionIdentifier.customerTransactionId,484894678
+transactionIdentifier.transactionId,3ec8180b-b682-4f23-986b-b480f5294aef
