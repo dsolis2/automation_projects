@@ -1,1 +1,1 @@
-This repo contains a collection of automation programs
+This is a simple selenium program to open a browser to specified URL
