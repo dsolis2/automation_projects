@@ -3,7 +3,7 @@ from pages import GlobalNav
 import time
 
 
-
+# Main driver
 links = ["Mac", "iPad", "iPhone", "Watch"]
 
 driver = webdriver.Chrome()
