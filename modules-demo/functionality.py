@@ -1,3 +1,5 @@
+# This file contains various functions that will be called from other python files
+
 def add(x, y):
     return x + y
 
