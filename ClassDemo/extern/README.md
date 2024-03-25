@@ -1,1 +1,1 @@
-This repo contains a collection of automation programs
+This demo shows how to import modules from different directories
