@@ -1,19 +1,21 @@
-from selenium import webdriver
-from pages import GlobalNav
+#import sys
+# sys.path.append("/pages")
+from selenium import webdrive
 import time
+from POMDemo.pages.nav_page import GlobalNav
+
 
 
 # Main driver
-links = ["Mac", "iPad", "iPhone", "Watch"]
+links = ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "TV & Home", "Entertainment", "Accessories", "Apple"]
 
 driver = webdriver.Chrome()
-def test_global_nav(driver):
+url = "http://www.apple.com"
 
-    url = "http//:www.apple.com"
-    nav = GlobalNav(driver)
-    nav.open_page(url)
-    for link in links:
-        nav.click_global_nav(link)
-        time.sleep(1)
+#driver = Browsers.chrome
+nav = GlobalNav(driver)
+nav.open_page(url)
 
-    
+for link in links:
+   nav.link(link)
+   time.sleep(1)   
